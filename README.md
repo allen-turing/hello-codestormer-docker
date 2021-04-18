@@ -23,7 +23,7 @@ Create a docke repository and then run  `docker push codestormer/hello-codestorm
 
 
 # Pulling A Docker File
-docker pull codestormer/hello-codestormer-docker
+`docker pull codestormer/hello-codestormer-docker`
 
 # Checking your images
 `docker image ls`
