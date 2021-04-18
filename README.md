@@ -28,5 +28,5 @@ docker pull codestormer/hello-codestormer-docker
 # Checking your images
 `docker image ls`
 
-#Running your docker image
+# Running your docker image
 `docker run `codestormer/hello-codestormer-docker`
