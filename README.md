@@ -33,4 +33,4 @@ Create a docker repository and then run  `docker push codestormer/hello-codestor
 `docker image ls`
 
 # Running your docker image
-`docker run `codestormer/hello-codestormer-docker`
+`docker run codestormer/hello-codestormer-docker`
