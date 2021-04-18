@@ -4,7 +4,7 @@
 
 `apt install docker.io`
 
-#Checking status of Docker
+# Checking status of Docker
 
 After Installation check if you getting any output using command `docker --version`
 
@@ -15,8 +15,11 @@ To set Active value to Active: active run the command `sudo systemctl enable --n
 # Pushing Your App to Docker repository 
 
 Firest we need to add commands in our Dockerfile and then build our docker image 
-Command to build our docker image  `docker build -t codestormer/hello-codestormer-docker .` we ise . because we were in the same directory in which we had our Dockerfile
+
+Command to build our docker image  `docker build -t codestormer/hello-codestormer-docker .` we use . because we were in the same directory in which we had our Dockerfile
+
 Create a docke repository and then run  `docker push codestormer/hello-codestormer-docker:hello-codestormer-docker`
+
 `codestormer` is the username
 `hello-codestormer-docker` is the name of the repository
 
